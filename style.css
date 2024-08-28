@@ -33,6 +33,11 @@ header {
     color: seashell;
     margin: 0 10px;
     font-size: 22px;
+    text-decoration: none;
+}
+.nav a:hover {
+    opacity: .5;
+    transition: opacity .15s;
 }
 
 /*Main*/
@@ -85,6 +90,11 @@ main {
 .featuredTea figure {
     margin: 10px;
 }
+.featuredTea figure:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: opacity .2s;
+}
 .featuredTea figcaption h4 {
     margin: 10px;
     text-align: center;
@@ -122,6 +132,9 @@ main {
 #contact {
     text-align: center;
     height: 200px;
+}
+#contact h5 {
+    cursor: pointer;
 }
 
 footer {
